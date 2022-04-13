@@ -151,7 +151,7 @@ transition: 1s ease;
 .slider{
     background-image: url('./1.jpg');
     height: 460px;
-    width: 1349px ;
+    width: 100% ;
     animation: slider 7s infinite linear;
     background-size: cover;
     background-repeat: no-repeat;

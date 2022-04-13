@@ -63,7 +63,7 @@ body {
 .navbar ul {
     display: flex;
     justify-content: space-between;
-    padding: 15px 46pc 0px 0px;
+    padding: 15px 0px 0px 0px;
 }
 
 .navbar ul li a {

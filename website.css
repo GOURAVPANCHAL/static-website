@@ -1,0 +1,279 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.textcolor {
+    color: white;
+    padding: 24px;
+}
+
+.very {
+    box-shadow: 0px 0px 50px -35px;
+}
+
+.contact {
+    text-align: right;
+    padding: 25px 116px 42px 58px;
+    background-color: white;
+    color: gray;
+}
+
+.contact h4 :hover {
+    background-color: #111;
+    color: white;
+}
+
+.contact img {
+    height: 25px;
+    border: 1px solid gray;
+    height: 45px;
+    padding: 4px 4px 3px 4px;
+    margin-left: 162px;
+
+}
+
+.header {
+    background-color: red;
+    height: 100px;
+    padding-left: 91px;
+}
+
+/* .phon img{
+    height: 60px;
+    width: 80px;
+    position: fixed;
+} */
+.navbar {
+    background-color: #333;
+    border-radius: inherit;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+    color: #337ab7;
+}
+
+.navbar li {
+    list-style-type: none;
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 46pc 0px 0px;
+}
+
+.navbar ul li a {
+
+    padding: 18px 41px 16px 35px;
+    text-decoration: none;
+    color: white;
+    margin-left: -16px;
+}
+
+.card {
+    background-image: url('./refrigerator.jpg');
+    height: 32vh;
+    background-repeat: no-repeat;
+}
+
+.cards {
+    background-image: url('./washingmachine.jpg');
+    height: 32vh;
+    background-repeat: no-repeat;
+}
+
+.cardss {
+    background-image: url('./microwave.jpg');
+    height: 32vh;
+}
+
+.button {
+    background-color: white;
+    width: 360px;
+    height: 50px;
+    box-shadow: 3px 2px 27px -16px;
+    border: none
+}
+
+.page {
+    height: 24pc;
+    background-image: url('./page.jpg');
+    background-repeat: no-repeat;
+    border: 9px solid #4caf50;
+    box-shadow: 0px 0px 0px 10px #980606;
+    margin-bottom: 153px;
+    margin-top: 18px;
+
+
+}
+
+.pages {
+    height: 23pc;
+    background-image: url('./4.jpg');
+    background-repeat: no-repeat;
+    border: 9px solid #4caf50;
+    box-shadow: 0px 0px 0px 10px #980606;
+    margin-bottom: 153px;
+    margin-top: 20px;
+}
+
+.pager {
+    height: 23pc;
+    background-image: url('./acservicing.jpg');
+    background-repeat: no-repeat;
+    border: 9px solid #4caf50;
+    box-shadow: 0px 0px 0px 10px #980606;
+    margin-bottom: 153px;
+}
+
+.content {
+    box-shadow: -1px 1px 19px -6px;
+    border: none;
+    padding: 25px 2px 0px 19px;
+    margin-top: 10px;
+}
+
+.buttons {
+    width: 130px;
+    height: 40px;
+    margin-top: 29px;
+    margin-left: 17px;
+
+    background-color: #980606;
+    color: white;
+    border: none;
+}
+
+.buttons:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #980606;
+    transition: 1s ease;
+}
+
+.button:hover {
+    background-color: #980606;
+    color: white;
+    border: 1px solid white;
+    transition: 1s ease;
+}
+
+.style {
+    background-color: #333;
+    color: white;
+    margin-left: 17px;
+    margin-right: 10px;
+}
+
+.slider {
+    background-image: url('./1.jpg');
+    height: 460px;
+    width: 100%;
+    animation: slider 7s infinite linear;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 85px;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url('./1.jpg');
+    }
+
+    50% {
+        background-image: url('./2.jpg');
+    }
+
+}
+
+.section img {
+    height: 60px;
+}
+
+.section {
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+}
+
+.section p {
+    color: white;
+}
+
+.Feedback {
+    height: 170px;
+    width: 26%;
+    background-color: rgb(14 33 15);
+    margin: 40px;
+    color: white;
+    padding: 34px 20px 30px;
+}
+
+.hrcolor {
+    border: 2px solid #980606;
+    position: relative;
+}
+
+.footer button {
+    background-color: #333;
+    color: white;
+    padding: 16px 18px 11px;
+    border: none;
+    margin: 0px;
+
+}
+
+button:hover {
+    border: none;
+    background-color: #111;
+    color: white;
+}
+
+.footer-bottom {
+    background-color: black;
+    color: white;
+}
+
+.footer-bottom p {
+    text-align: center;
+    padding: 24px 1px 24px;
+}
+
+.clock {
+    height: 60px;
+}
+
+.background {
+    position: relative;
+    background-image: url(./3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.asdf {
+    background-color: #333;
+    padding: initial;
+}
+
+.overlay {
+    position: absolute;
+    height: 178vh;
+    background: rgba(0, 0, 0, 0.79);
+    width: 100%;
+}
+
+p {
+    color: gray;
+}
+
+.Feedback p {
+    color: white;
+}
